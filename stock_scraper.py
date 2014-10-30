@@ -14,7 +14,6 @@ def get_data():
             RESULTS['children'].append({
                 'name': line['Name'],
                 'symbol': line['Symbol'],
-                'symbol': line['Symbol'],
                 'price': line['lastsale'],
                 'net_change': line['netchange'],
                 'percent_change': line['pctchange'],

@@ -4,7 +4,7 @@
   "authors": [
     "Josh Milo <josh@joshmilo.com>"
   ],
-  "main": "bubble-stocks.py",
+  "main": "app.py",
   "license": "MIT",
   "private": true,
   "ignore": [
