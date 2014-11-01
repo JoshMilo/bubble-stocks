@@ -1,1 +1,6 @@
-// custom javascript
+$(function () {
+
+    console.log('ready!');
+
+
+});
