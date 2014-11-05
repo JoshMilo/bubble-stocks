@@ -7,12 +7,19 @@
     <link href={{ url_for('static', filename='main.css') }} rel="stylesheet" media="screen">
   </head>
   <body>
-    <h1>Bubble Stocks</h1>
     <div class="container">
-      <div id="chart">
-        
-      </div>
-    </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="intro">
+            <h1 class="">Bubble Stocks</h1>
+            <p>Want to know who the movers and the shakers are in the Nasdaq?</p>
+            <p>The larger the bubble the more the Nasdaq has been affected by the stock. It's based on the NASDAQ-100 Point <a href="http://www.nasdaq.com/quotes/nasdaq-100-stocks.aspx?col=6&dir=U">list</a></p>
+          </div>
+          
+          <div id="chart"><!--d3 chart--></div>
+        </div>
+      </div>      
+    </div> <!--end container-->
     <script src={{ url_for('static', filename='./bower_components/jquery/dist/jquery.min.js') }}></script>
     <script src={{ url_for('static', filename='./bower_components/bootstrap/dist/js/bootstrap.min.js') }}></script>
     <script src={{ url_for('static', filename='./bower_components/d3/d3.min.js') }}></script>

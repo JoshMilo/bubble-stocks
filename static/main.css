@@ -1,1 +1,10 @@
 /* custom css */
+body {
+  font: 12px sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.intro h1, .intro p {
+  text-align: center;
+}
