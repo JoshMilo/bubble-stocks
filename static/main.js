@@ -52,10 +52,10 @@ var createGraph = function() {
     .style("z-index", "10")
     .style("visibility", "hidden")
     .style("color", "white")
-    .style("padding", "8px")
+    .style("padding", "50px")
     .style("background-color", "rgba(0, 0, 0, 0.75")
-    .style("border-radius", "6px")
-    .style("font", "12px sans-serif")
+    .style("border-radius", "3px")
+    .style("font", "18px sans-serif")
     .text("tooltip");
 
 
