@@ -48,7 +48,7 @@ var createGraph = function() {
 
   var tooltip = d3.select("body")
     .append("div")
-    .style("postion", "absolute")
+    .style("position", "absolute")
     .style("z-index", "10")
     .style("visibility", "hidden")
     .style("color", "white")
@@ -59,7 +59,7 @@ var createGraph = function() {
     .text("tooltip");
 
 
-} //end graph
+}; //end graph
 createGraph();
 
 
